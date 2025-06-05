@@ -1,20 +1,21 @@
 # Virtual-Mouse
 This project allows you to control your computer's mouse cursor using hand gestures in real-time. Using MediaPipe for hand tracking, OpenCV for video capture, and PyAutoGUI for mouse control, this system simulates various mouse actions based on your hand movements.
 
-Project Overview 
+<b>Project Overview:</b>
 
 The Virtual Mouse project allows users to interact with their computer by moving the mouse cursor, clicking, and scrolling using only their hands. The project tracks the movement of your hand through a webcam feed and translates that into mouse input.
 
-Features
-
-Cursor Movement: Control the mouse cursor by simply moving your hand.
-Left Click: Simulate a left-click by bringing the index finger and thumb close together (less than 50 pixels apart).
-Right Click: Perform a right-click by positioning the index finger and pinky finger close together (within 8 pixels vertically).
-Scroll Up: Simulate scrolling up by bringing the index finger and pinky finger within 20 pixels vertically.
-Scroll Down: Simulate scrolling down by bringing the index finger and index finger's MCP joint within 10 pixels vertically.
+<b>Features:</b>
+<ul>
+<li>Cursor Movement: Control the mouse cursor by simply moving your hand.</li>
+<li>Left Click: Simulate a left-click by bringing the index finger and thumb close together (less than 50 pixels apart).</li>
+<li>Right Click: Perform a right-click by positioning the index finger and pinky finger close together (within 8 pixels vertically).</li>
+<li>Scroll Up: Simulate scrolling up by bringing the index finger and pinky finger within 20 pixels vertically.</li>
+<li>Scroll Down: Simulate scrolling down by bringing the index finger and index finger's MCP joint within 10 pixels vertically.</li>
+</ul>  
 The system uses your webcam to track hand movements, and based on proximity and specific gestures between fingers, it performs the associated actions.
 
-How It Works
+<b>How It Works:</b>
 
 1. Webcam Feed
 The webcam continuously captures video, and the system processes each frame in real-time to detect hand positions.
