@@ -31,4 +31,4 @@ Scroll Down: If the index finger and its MCP joint are within 10 pixels vertical
 Scroll Up: When the index finger and pinky finger are within 20 pixels vertically, the system simulates a scroll up action.
 
 4. Real-Time Processing
-The system processes the webcam feed at a stable frame rate to ensure smooth and responsive control. As you move your hand or perform gestures, the cursor follows in real-time, with specific gestures triggering the respective mouse actions. fgvhjbn
+The system processes the webcam feed at a stable frame rate to ensure smooth and responsive control. As you move your hand or perform gestures, the cursor follows in real-time, with specific gestures triggering the respective mouse actions. 
