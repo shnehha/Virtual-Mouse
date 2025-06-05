@@ -1,21 +1,20 @@
 # Virtual-Mouse
-<h1>Virtual Mouse Using Computer Vision<h1>
-<p>This project allows you to control your computer's mouse cursor using hand gestures in real-time. Using MediaPipe for hand tracking, OpenCV for video capture, and PyAutoGUI for mouse control, this system simulates various mouse actions based on your hand movements.<p>
+This project allows you to control your computer's mouse cursor using hand gestures in real-time. Using MediaPipe for hand tracking, OpenCV for video capture, and PyAutoGUI for mouse control, this system simulates various mouse actions based on your hand movements.
 
-<h2>Project Overview <h2>
+Project Overview 
 
-<p>The Virtual Mouse project allows users to interact with their computer by moving the mouse cursor, clicking, and scrolling using only their hands. The project tracks the movement of your hand through a webcam feed and translates that into mouse input.<p>
+The Virtual Mouse project allows users to interact with their computer by moving the mouse cursor, clicking, and scrolling using only their hands. The project tracks the movement of your hand through a webcam feed and translates that into mouse input.
 
-<h3>Features<h3>
+Features
 
-<ul>Cursor Movement: Control the mouse cursor by simply moving your hand.<ul>
-<ul>Left Click: Simulate a left-click by bringing the index finger and thumb close together (less than 50 pixels apart).<ul>
-<ul>Right Click: Perform a right-click by positioning the index finger and pinky finger close together (within 8 pixels vertically).<ul>
-<ul>Scroll Up: Simulate scrolling up by bringing the index finger and pinky finger within 20 pixels vertically.<ul>
-<ul>>Scroll Down: Simulate scrolling down by bringing the index finger and index finger's MCP joint within 10 pixels vertically.<ul>
+Cursor Movement: Control the mouse cursor by simply moving your hand.
+Left Click: Simulate a left-click by bringing the index finger and thumb close together (less than 50 pixels apart).
+Right Click: Perform a right-click by positioning the index finger and pinky finger close together (within 8 pixels vertically).
+Scroll Up: Simulate scrolling up by bringing the index finger and pinky finger within 20 pixels vertically.
+Scroll Down: Simulate scrolling down by bringing the index finger and index finger's MCP joint within 10 pixels vertically.
 The system uses your webcam to track hand movements, and based on proximity and specific gestures between fingers, it performs the associated actions.
 
-<h3>How It Works<h3>
+How It Works
 
 1. Webcam Feed
 The webcam continuously captures video, and the system processes each frame in real-time to detect hand positions.
